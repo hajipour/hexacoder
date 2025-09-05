@@ -1,0 +1,81 @@
+{
+  "best_metric": 0.40369486808776855,
+  "best_model_checkpoint": "codegen-350m-8cwes-dataset_py_c_test20/checkpoint-255",
+  "epoch": 4.0,
+  "eval_steps": 500,
+  "global_step": 340,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "grad_norm": 0.47368091344833374,
+      "learning_rate": 0.0004763149557208554,
+      "loss": 0.6421,
+      "step": 85
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 0.4897924065589905,
+      "eval_runtime": 23.5529,
+      "eval_samples_per_second": 14.351,
+      "eval_steps_per_second": 1.826,
+      "step": 85
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 0.4516904354095459,
+      "learning_rate": 0.0003893878875478667,
+      "loss": 0.4182,
+      "step": 170
+    },
+    {
+      "epoch": 2.0,
+      "eval_loss": 0.42347437143325806,
+      "eval_runtime": 22.9367,
+      "eval_samples_per_second": 14.736,
+      "eval_steps_per_second": 1.875,
+      "step": 170
+    },
+    {
+      "epoch": 3.0,
+      "grad_norm": 0.7376803159713745,
+      "learning_rate": 0.00026271351240196453,
+      "loss": 0.3366,
+      "step": 255
+    },
+    {
+      "epoch": 3.0,
+      "eval_loss": 0.40369486808776855,
+      "eval_runtime": 22.9135,
+      "eval_samples_per_second": 14.751,
+      "eval_steps_per_second": 1.877,
+      "step": 255
+    },
+    {
+      "epoch": 4.0,
+      "grad_norm": 0.6135154366493225,
+      "learning_rate": 0.0001324138015899967,
+      "loss": 0.2791,
+      "step": 340
+    },
+    {
+      "epoch": 4.0,
+      "eval_loss": 0.4066958427429199,
+      "eval_runtime": 22.8174,
+      "eval_samples_per_second": 14.813,
+      "eval_steps_per_second": 1.885,
+      "step": 340
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 510,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 6,
+  "save_steps": 500,
+  "total_flos": 3487477474000896.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

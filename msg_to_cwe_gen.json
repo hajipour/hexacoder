@@ -1,0 +1,29 @@
+{
+"python":{
+"Bad HTML filtering regexp":"CWE-116",
+              "Insecure temporary file":"CWE-377",
+              "XPath query built from user-controlled sources":"CWE-643",
+              "XSLT query built from user-controlled sources":"CWE-643",
+              "Regular expression injection":"CWE-730",
+              "Overly permissive file permissions":"CWE-732"
+              
+	},
+"c":{
+"Uncontrolled data used in path expression":"CWE-022",
+              "User-controlled data in arithmetic expression":"CWE-190",
+              "Uncontrolled data in arithmetic expression":"CWE-190",
+              "Use of extreme values in arithmetic expression":"CWE-190",
+              "Comparison of narrow type with wide type in loop condition":"CWE-190",
+              "Potential integer arithmetic overflow":"CWE-190",
+              "Overflow in uncontrolled allocation size":"CWE-190",
+              "Returned pointer not checked": "CWE-476",
+              "unsigned to signed used in pointer arithmetic":"CWE-787",
+              "Badly bounded write":"CWE-787",
+              "Potentially overrunning write":"CWE-787",
+              "Potentially overrunning write with float to string conversion":"CWE-787",
+              "Unbounded write":"CWE-787",
+              "Likely overrunning write":"CWE-787"
+	}
+
+}
+
