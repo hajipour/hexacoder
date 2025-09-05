@@ -18,7 +18,7 @@ pip install -e .
 ## Usage
 
 ### Running CodeQL Analysis
-s
+
 ```bash
 python run_codeql.py --checkpoint <model_checkpoint>
 ```
